@@ -1,0 +1,8 @@
+build/
+.idea/
+.ipynb_checkpoints
+*.iml
+.DS_Store
+target/
+*.jfr
+*.log

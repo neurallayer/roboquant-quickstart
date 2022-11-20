@@ -1,0 +1,1 @@
+This is a Maven Archetype project for roboquant.
