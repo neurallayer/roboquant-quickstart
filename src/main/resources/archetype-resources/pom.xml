@@ -123,16 +123,4 @@
     </pluginManagement>
   </build>
 
-  <dependencyManagement>
-    <dependencies>
-      <dependency>
-        <groupId>org.roboquant</groupId>
-        <artifactId>roboquant-parent</artifactId>
-        <version>${roboquant.version}</version>
-        <scope>import</scope>
-        <type>pom</type>
-      </dependency>
-    </dependencies>
-  </dependencyManagement>
-
 </project>
