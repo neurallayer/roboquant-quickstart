@@ -79,14 +79,6 @@
             </goals>
           </execution>
         </executions>
-        <configuration>
-          <args>
-            <!-- arg>-Xuse-k2</arg -->
-            <!-- arg>-Xbackend-threads=0</arg -->
-            <!-- arg>-Xcontext-receivers</arg -->
-            <!-- arg>-Xexplicit-api=strict</arg -->
-          </args>
-        </configuration>
       </plugin>
     </plugins>
     <pluginManagement>
