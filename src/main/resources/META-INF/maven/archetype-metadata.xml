@@ -28,7 +28,7 @@ under the License.
       <defaultValue>0.9.9-SNAPSHOT</defaultValue>
     </requiredProperty>
     <requiredProperty key="kotlinVersion">
-      <defaultValue>1.8.0-RC</defaultValue>
+      <defaultValue>1.8.0-RC2</defaultValue>
     </requiredProperty>
   </requiredProperties>
 
