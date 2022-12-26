@@ -1,5 +1,4 @@
-This is a Maven Archetype project for roboquant.
-
+This is a Maven Archetype project for roboquant called `roboquant-quickstart`. It helps to quickly get a new algo-trading project setup.
 
 After you have cloned the GitHub repo, you can locally install an archetype just like any other Maven artefact.
 
