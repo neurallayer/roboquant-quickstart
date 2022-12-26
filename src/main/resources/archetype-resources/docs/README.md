@@ -1,16 +1,17 @@
 Welcome
 =======
-This project has been created by the `roboquant-quickstart` Maven Archetype. There is already 
-a small default application included that you can find at:
+This project has been created by the `roboquant-quickstart` Maven archetype. There is already a small default application included that you can find at:
 
     src/main/kotlin/${groupId.replace('.','/')}/App.kt
 
-By default, the following roboquant modules are included:
+At the same location you can also find a basic implementation of a strategy called `MyStrategy`.
+
+By default, the following roboquant modules are included in the project:
 
 - roboquant: the core module of roboquant
 - roboquant-ta: adds technical analysis indicators and strategies
 - roboquant-extra: integration with 3rd party brokers and market data providers
-- roboquant-crypto: integration with Binance and XChange
+- roboquant-crypto: integration with Binance and XChange crypto exchanges
 
 Compile your Application
 ========================
@@ -27,7 +28,7 @@ To run your application you can enter the following command from the command-lin
 ```shell
 mvn exec:java
 ```
-The default included application will run a small back-test and will print a summary of the account at the end.
+The default included application will run a small back-test and print a summary of the account at the end.
 
 Next Steps
 ==========
@@ -40,4 +41,4 @@ It can also easily import your project. Just follow these steps after installing
 3. select `Import project from external model` -> select `Maven` -> click `create`
 4. Done 
 
-You are now ready to continue to develop your trading application in IntelliJ IDEA.
+You are now ready to develop your trading application in IntelliJ IDEA.

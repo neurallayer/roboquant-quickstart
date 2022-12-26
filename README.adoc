@@ -8,7 +8,7 @@ After you have cloned the GitHub repo, you can locally install an archetype just
 mvn install
 ----
 
-You can run the archetype to create a new roboquant project using hte following command:
+You can run the archetype to create a new roboquant project using the following command:
 
 [source,shell]
 ----
@@ -16,3 +16,16 @@ mvn archetype:generate -Dfilter=roboquant-quickstart
 ----
 
 The `-Dfilter` parameter is optional, but makes it easier to locate the archetype
+
+To run the archetype without the manual input, you can use the command with following additional parameters:
+
+[source,shell]
+----
+mvn archetype:generate                          \
+-DarchetypeGroupId=org.roboquant                \
+-DarchetypeArtifactId=roboquant-quickstart      \
+-DarchetypeVersion=1.0-SNAPSHOT                 \
+-DgroupId=org.mydomain                          \
+-DartifactId=myapp                              \
+-Dversion=0.1-SNAPSHOT
+----
