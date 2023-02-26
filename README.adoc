@@ -2,7 +2,7 @@
 This is a Maven Archetype project for roboquant called `roboquant-quickstart`. It helps to quickly start a new algo-trading project.
 
 == Running it
-You can create your own new algo-trading application by running the following command:
+You can create your own new algo-trading application from scratch by running the following command:
 
 [source,shell]
 ----
@@ -12,13 +12,12 @@ mvn archetype:generate                       \
 -DarchetypeVersion=1.0.0                     \
 -DgroupId=org.mydomain                       \
 -DartifactId=myapp                           \
--Dversion=0.1-SNAPSHOT
+-Dversion=1.0-SNAPSHOT
 ----
 
 You should substitute the last three parameters with your own configuration.
 
-
-== Installing from source
+== Installing Archetype from source
 After you have cloned the GitHub repo, you can locally install an archetype just like any other Maven artefact.
 
 [source,shell]

@@ -1,6 +1,6 @@
 Welcome
 =======
-This project has been created by the `roboquant-quickstart` Maven archetype. There is already a small default application included that you can find at:
+This project has been created by the `roboquant-quickstart` Maven archetype. There is a small default application included that you can find at:
 
     src/main/kotlin/${groupId.replace('.','/')}/App.kt
 
