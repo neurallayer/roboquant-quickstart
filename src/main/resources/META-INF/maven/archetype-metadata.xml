@@ -25,10 +25,10 @@ under the License.
 
   <requiredProperties>
     <requiredProperty key="roboquantVersion">
-      <defaultValue>1.4.0</defaultValue>
+      <defaultValue>1.6.0-SNAPSHOT</defaultValue>
     </requiredProperty>
     <requiredProperty key="kotlinVersion">
-      <defaultValue>1.8.20</defaultValue>
+      <defaultValue>1.8.22</defaultValue>
     </requiredProperty>
   </requiredProperties>
 

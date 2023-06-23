@@ -7,7 +7,7 @@ import kotlin.system.exitProcess
 
 fun main() {
 
-    // Create an instance of MyStrategy with 26 days history
+    // Create an instance of MyStrategy with 26-day history
     val strategy = MyStrategy(period = 26)
 
     // Define the metric(s) you want to monitor
