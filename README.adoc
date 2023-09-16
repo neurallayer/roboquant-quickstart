@@ -1,4 +1,5 @@
 = Roboquant Archetype
+
 This is a Maven Archetype project for roboquant called `roboquant-quickstart`. It helps to quickly start a new algo-trading project.
 
 == Running it
@@ -9,7 +10,7 @@ You can create your own new algo-trading application from scratch by running the
 mvn archetype:generate                       \
 -DarchetypeGroupId=org.roboquant             \
 -DarchetypeArtifactId=roboquant-quickstart   \
--DarchetypeVersion=1.6.0-SNAPSHOT            \
+-DarchetypeVersion=2.0.0                     \
 -DgroupId=org.mydomain                       \
 -DartifactId=myapp                           \
 -Dversion=1.0-SNAPSHOT
@@ -34,5 +35,4 @@ mvn archetype:generate -Dfilter=roboquant-quickstart
 
 The `-Dfilter` parameter is optional, but makes it easier to locate the archetype
 
-To run the archetype without the manual input, you can use the command with following additional parameters:
 

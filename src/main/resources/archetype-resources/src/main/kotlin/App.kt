@@ -2,7 +2,7 @@ package $package
 
 import org.roboquant.metrics.AccountMetric
 import org.roboquant.Roboquant
-import org.roboquant.feeds.AvroFeed
+import org.roboquant.avro.AvroFeed
 import kotlin.system.exitProcess
 
 fun main() {
@@ -16,7 +16,8 @@ fun main() {
     // Create an instance of Roboquant
     val roboquant = Roboquant(strategy, metric)
 
-    // Create the data feed that will be used during the back test
+    // Create the data feed that will be used for the back test
+    // This demo feed contains several years worth of daily S&P 500 stock prices
     val feed = AvroFeed.sp500()
 
     // Run the back test

@@ -6,12 +6,13 @@ This project has been created by the `roboquant-quickstart` Maven archetype. The
 
 At the same location you can also find a basic implementation of a strategy called `MyStrategy`.
 
-By default, the following roboquant modules are included in the project:
+By default, the following two roboquant modules are included in the project:
 
 - roboquant: the core module of roboquant
 - roboquant-ta: adds technical analysis indicators and strategies
-- roboquant-extra: integration with 3rd party brokers and market data providers
-- roboquant-crypto: integration with Binance and XChange crypto exchanges
+- roboquant-avro: adds support for Avro files and comes with several demo feeds
+
+However the `pom.xml` file already contains the other modules, ready to be uncommented. 
 
 Compile your Application
 ========================
@@ -26,9 +27,17 @@ Run your Application
 To run your application you can enter the following command from the command-line:
 
 ```shell
-mvn exec:java
+mvn compile exec:java
 ```
 The default included application will run a small back-test and print a summary of the account at the end.
+
+
+You can also create and run a Docker image. Make sure Docker is running because by default the image will be published to your local Docker repo. Also, you might need to configure the correct platform in the pom.xml. 
+
+```shell
+mvn compile jib:dockerBuild 
+docker run ${groupId.replace('.','/')}/${artifactId}
+```
 
 Next Steps
 ==========

@@ -4,7 +4,7 @@ import org.roboquant.strategies.HistoricPriceStrategy
 import org.roboquant.strategies.Rating
 
 /**
- * Basic breakout strategy.
+ * Basic trend-following breakout strategy
  *
  * @param period the period to use for checking this is indeed a breakout
  */
