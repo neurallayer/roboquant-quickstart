@@ -6,17 +6,17 @@ This project has been created by the `roboquant-quickstart` Maven archetype. The
 
 At the same location you can also find a basic implementation of a strategy called `MyStrategy`.
 
-By default, the following two roboquant modules are included in the project:
+By default, the following roboquant modules are included in the project:
 
 - roboquant: the core module of roboquant
 - roboquant-ta: adds technical analysis indicators and strategies
 - roboquant-avro: adds support for Avro files and comes with several demo feeds
 
-However the `pom.xml` file already contains the other modules, ready to be uncommented. 
+The `pom.xml` file also already contains references to the other modules, ready to be uncommented. 
 
 Compile your Application
 ========================
-To compile your application you can enter the following command from the command-line:
+To compile your application, you can enter the following command from the command-line:
 
 ```shell
 mvn compile
@@ -24,7 +24,7 @@ mvn compile
 
 Run your Application
 ====================
-To run your application you can enter the following command from the command-line:
+To run your application, you can enter the following command from the command-line:
 
 ```shell
 mvn compile exec:java
